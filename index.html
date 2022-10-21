@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <div class="wrapper">
+
+      <form id="regForm" class="reg-form" >
+    
+        <div class="headline">
+            <h1> Registrera ny användare</h1>
+
+        </div>     
+        <div class="form-content">
+
+            <div class="input-group">
+                <label for="firstName" class="form-label">Förnamn <span>*</span> </label>
+                <input type="text" class="form-control" id="firstName">
+                <div class="invalid-feedback">Vänligen ange giltigt förnamn</div>
+            </div>
+            <div class="input-group">
+             <label for="lastName" class="form-label">Efternamn <span>*</span></label>
+                <input type="text"  class="form-control" id="lastName">
+                <div class="invalid-feedback">Vänligen ange giltigt efternamn </div>
+            </div>
+            <div class="input-group">
+
+                <label for="email">Email <span>*</span></label>
+                <input type="email"class="form-control" id="email">
+                <div class="invalid-feedback">Vänligen ange giltigt email</div>
+                
+                <div class="input-group">
+
+                <label for="password" class="form-label">Lösenord<span>*</span></label>
+                <input type="password"  class="form-control" id="password">
+                <div class="invalid-feedback">Vänligen ange ett lösenord </div>
+
+                <div class="input-group">
+                <label for="password" class="form-label">Repetera lösenord<span>*</span></label>
+                <input type="password"  class="form-control" id="repeatPassword">
+                <div class="invalid-feedback"></div>
+
+            </div>
+               <p> * obligatoriskt fält</p>
+            </div>
+
+            <div class="input-group">
+                <input type="checkbox" class="container" id="newsletter"
+                <label for="newsletter">Prenumerera på nyhetsbrev</label>
+                <br>
+                <input type="checkbox" class="container" id="terms">
+                <label for="terms">Acceptera villkoren</label>
+                <div class="invalid-feedback">Vänligen acceptera villkoren</div>
+
+
+            </div>
+
+            <button class="btn">Registrera</button>
+        </div> 
+        
+    
+
+      </form>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
